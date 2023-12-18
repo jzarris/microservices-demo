@@ -9,7 +9,7 @@ terraform {
 
 provider "kubernetes" {
   config_path    = "~/.kube/config"
-  config_context = "kind-impart-sandbox"
+  config_context = "kind-sandbox"
 }
 
 provider "helm" {
